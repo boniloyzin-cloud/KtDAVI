@@ -6,8 +6,7 @@
  LocalPlayer = Players.LocalPlayer
  CoreGui = game:GetService("CoreGui")
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
- Library = loadstring(game:HttpGet("https://pastefy.app/jr3gmeON/raw"))()
-
+ Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/boniloyzin-cloud/..../refs/heads/main/raw%20(19).txt"))()
 -- Unlock MouseMouseBehavior = Enum.MouseBehavior.Default
 
 -- Global state storage
@@ -20,7 +19,7 @@ function GetToggleState(flag) return ToggleStates[flag] or false end
 
 
  Window = Library:CreateWindow({
-    Title = "KT FTAP V2",
+    Title = "DAVI FTAP V1000",
     Theme = "Voi",
     ToggleKey = Enum.KeyCode.M,
     Transparency = 0,
@@ -38,13 +37,13 @@ function GetToggleState(flag) return ToggleStates[flag] or false end
     CustomIcon = "67"
 })
 local Tabs = {
-	Defense = Window:CreateTab("phòng thủ", true, "7461510456"),
-	Target = Window:CreateTab("mục tiêu", true, "107058246184363"),
-	Grab = Window:CreateTab("bắt", true, "85607241723723"), -- РќРѕРІР° С–РєРѕРЅРєР° Drag
-	Player = Window:CreateTab("người chơi", true, "124871982298256"),
-	Misc = Window:CreateTab("linh tinh", true, "114167292947807"), -- РќРѕРІР° С–РєРѕРЅРєР° Sparkles
-	Keybinds = Window:CreateTab("phím tắt", true, "4814130203"), -- РќРѕРІР° С–РєРѕРЅРєР° BadgeLogo
-	Visuals  = Window:CreateTab("hiển thị",  true, "7733955511"),
+	Defense = Window:CreateTab("Defense", true, "7461510456"),
+	Target = Window:CreateTab("Target", true, "107058246184363"),
+	Grab = Window:CreateTab("Grab", true, "85607241723723"), -- РќРѕРІР° С–РєРѕРЅРєР° Drag
+	Player = Window:CreateTab("Player", true, "124871982298256"),
+	Misc = Window:CreateTab("Misc", true, "114167292947807"), -- РќРѕРІР° С–РєРѕРЅРєР° Sparkles
+	Keybinds = Window:CreateTab("Keybinds", true, "4814130203"), -- РќРѕРІР° С–РєРѕРЅРєР° BadgeLogo
+	Visuals  = Window:CreateTab("Visua1s",  true, "7733955511"),
 }
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local StarterGui = game:GetService("StarterGui")
