@@ -5,7 +5,7 @@
  Players = game:GetService("Players")
  LocalPlayer = Players.LocalPlayer
  CoreGui = game:GetService("CoreGui")
-loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+
  Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/boniloyzin-cloud/..../refs/heads/main/raw%20(19).txt"))()
 -- Unlock MouseMouseBehavior = Enum.MouseBehavior.Default
 
